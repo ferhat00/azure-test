@@ -1,0 +1,9 @@
+{
+	"name": "ferhat-ADF",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e706e560-e5bc-4581-b743-427acb574814",
+		"tenantId": "e1e5ea26-617a-4781-8fca-f7e27fffe127"
+	}
+}
