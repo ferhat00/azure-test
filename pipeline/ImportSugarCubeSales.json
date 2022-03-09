@@ -93,7 +93,9 @@
 									"type": "Decimal"
 								}
 							}
-						]
+						],
+						"collectionReference": "$['Sales']",
+						"mapComplexValuesToString": false
 					}
 				},
 				"inputs": [
