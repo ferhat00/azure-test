@@ -1,0 +1,24 @@
+{
+	"name": "SourceDataset_g60",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Chapter2"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "azure-data-factory-by-example-main.zip",
+				"container": "landing"
+			},
+			"compression": {
+				"type": "ZipDeflate"
+			}
+		}
+	}
+}
